@@ -1,5 +1,6 @@
 import { populateUser } from "./cartItem";
 
+let pUser = new populateUser();
 //dati utente
 const you: {
   nome: string;
