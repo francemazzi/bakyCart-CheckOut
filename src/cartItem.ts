@@ -26,6 +26,7 @@ export const creaProdotto = (
     const image = document.createElement('img');
     image.setAttribute('src', products[i].immagine);
     prodottoItem.innerHTML = `
+    <button class="deleteBtn">❌</button>
           <div id="img">
             <img src="${products[i].immagine}" alt="" />
           </div>
@@ -40,7 +41,7 @@ export const creaProdotto = (
             <div id="prezzoSpedizione">${products[i].costoDiConsegna}</div>
           </div>
           <div>
-            <span>Spedizione</span>
+            <span class="spedizione">Spedizione</span>
             <div id="dataSpedizione">${products[i].spedizioneData}</div>
           </div>
           <div>

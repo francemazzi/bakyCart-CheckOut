@@ -19,6 +19,7 @@
     // "isolatedModules": true,
     /* noEmit - We only use TypeScript for type checking. */
     "noEmit": true,
+    "sourceMap": true,
     /* Additional Options */
     "strict": true,
     "skipLibCheck": true,
