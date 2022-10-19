@@ -1,6 +1,6 @@
 // import { v4 as uuidV4 } from 'uuid';
 // uuidV4();
-import { populateUser, creaProdotto } from './cartItem';
+import { populateUser, creaProdotto, totalValue } from './cartItem';
 
 //dati utente
 const you: {
@@ -64,3 +64,4 @@ creaProdotto(
   products[i].prezzo,
   products[i].spedizioneData,
 );
+totalValue(products.length, products[i].prezzo);

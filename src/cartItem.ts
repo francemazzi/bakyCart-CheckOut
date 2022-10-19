@@ -4,10 +4,26 @@ const tabellaDisplay = document.querySelector(
   '#tabellaCarta',
 ) as HTMLDivElement;
 
+const totalProductDisplay = document.querySelector(
+  '#totalProduct',
+) as HTMLSpanElement;
+const totalPriceDisplay = document.querySelector(
+  '#totalPrice',
+) as HTMLSpanElement;
+
 //Welcome
 export function populateUser(isReturning: boolean, nomePrimo: string) {
   const accesso = isReturning ? 'Bentornato' : '';
   titleDisplay.innerHTML = `<h2>${accesso} ${nomePrimo}, il tuo carrello contiene: </h2>`;
+}
+
+//Totale cart value
+export function totalValue(prodotti: number, prezzo: number) {
+  const nProdotti = products.length > 0 ? `Hai ${products.length}` : 'Non hai ';
+  totalProductDisplay.innerHTML = nProdotti;
+  for (let i = 0; i < products.length; i++) {
+    console.log(products[i].prezzo);
+  }
 }
 
 // product item

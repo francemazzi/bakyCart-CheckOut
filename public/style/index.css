@@ -29,6 +29,12 @@ h2 {
   text-align: center;
 }
 
+/* totale */
+.totale {
+  padding: 0.6rem;
+  text-align: center;
+}
+
 /*  product item */
 
 #img > img {
