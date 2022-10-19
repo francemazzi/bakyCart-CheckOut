@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@600;700&display=swap');
 
 :root {
   --blue: #3ec1d3;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .container__cart {
@@ -23,6 +23,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+h2 {
+  text-align: center;
 }
 
 /* .tabella__cart {

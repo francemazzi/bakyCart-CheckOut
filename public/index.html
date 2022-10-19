@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script defer src="./components/index.ts"></script> -->
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <link rel="stylesheet" type="text/css" href="style/index.css" />
     <title>Cart</title>
   </head>
   <body>
+    <script type="module" src="/dist/index.js"></script>
+
     <div class="container__cart">
       <div id="title"></div>
       <div class="menu">Home / Carello</div>
@@ -16,10 +21,7 @@
         <!-- prodotto carrello -->
         <div class="prodottoItem">
           <div id="img">
-            <img
-              src="img/CoffeBreak_Roscioli_salato_Cosaporto-e1593435853690-300x300.png"
-              alt=""
-            />
+            <img src="img/iTem1.png" alt="" />
           </div>
           <div>
             <span>Prodotto:</span>
@@ -52,9 +54,5 @@
         <!-- fine prodotto carrello -->
       </div>
     </div>
-    <script>
-      var exports = {};
-    </script>
-    <script type="module" src="js/index.js"></script>
   </body>
 </html>
