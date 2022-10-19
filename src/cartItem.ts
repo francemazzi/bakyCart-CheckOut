@@ -19,11 +19,14 @@ export function populateUser(isReturning: boolean, nomePrimo: string) {
 
 //Totale cart value
 export function totalValue(prodotti: number, prezzo: number) {
+  let somma = 0;
+  for (let i = 0; i < products.length; i++) {
+    somma = products[i].prezzo + somma;
+  }
   const nProdotti = products.length > 0 ? `Hai ${products.length}` : 'Non hai ';
   totalProductDisplay.innerHTML = nProdotti;
-  for (let i = 0; i < products.length; i++) {
-    console.log(products[i].prezzo);
-  }
+  const pProdotti = products.length > 0 ? `Il totale è di ${somma} €` : '';
+  totalPriceDisplay.innerHTML = pProdotti;
 }
 
 // product item
