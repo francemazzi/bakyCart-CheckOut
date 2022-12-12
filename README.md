@@ -1,5 +1,5 @@
-# New Project
-
+# This is a mixing project! 
+It's the checkout for my old project www.baky.it, I mix react with wordpress (becausa I am a donkey in php)🤯
 ## TODO
 
 > ⭕️ Funzione calcolo del totale
